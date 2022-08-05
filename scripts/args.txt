@@ -1,0 +1,15 @@
+"args": [
+        "--train_csv", "/home/gopalknookula/Adversarial-Patch-Training/GT-00000.csv",
+        "--test_csv", "/home/gopalknookula/Adversarial-Patch-Training/GT-final_test.csv",
+        "--dataset", "GTSRB"
+      ]
+
+"args": [
+        "--cuda"
+        "--mask_pos" 1 3
+        "--mask_dims" 2 2
+        "--mode" normal
+        "dataset" kaggle_gtsrb
+        "--models_dir" /home/gopalknookula/Adversarial-Patch-Training/experiments
+        "--n_classes" 43  
+        ]
